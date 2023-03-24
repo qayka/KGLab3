@@ -11,6 +11,9 @@ class App:
     def __init__(self):
         super().__init__()
         self.root = tkinter.Tk()
+        self.root.geometry("400x400")
+        self.root.minsize(800,500)
+        self.root.maxsize(800,500)
         self.panelA = None
         self.panelB = None
         # initialize the window toolkit along with the two image panels
