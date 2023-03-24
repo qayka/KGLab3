@@ -7,6 +7,19 @@ import cv2
 from tkinter import filedialog
 
 
+
+def borderprocessing():
+    return 0
+
+
+def segmentation():
+    return 0
+
+
+def appstart():
+    return 0
+
+
 def select_image():
     root = tkinter.Tk()
     panelA = None
